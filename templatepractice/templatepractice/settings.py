@@ -25,7 +25,9 @@ SECRET_KEY = 'nmc$6_t+z*7geui=t2%8e@w%4prnx$@7g@+-vf9&!*lx#vaj2y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'cooperm.pythonanywhere.com',
+]
 
 
 # Application definition
