@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+{% load my_filters %}
+
+  {% block body_block %}
+    <h1>Welcome to Index</h1>
+    <h2>This is Index.page showing with inheritance from base.html!</h2>
+    <h1>{{ text|cut:'world' }}
+    {{ number|add:"99" }}</h1>
+  {% endblock %}
